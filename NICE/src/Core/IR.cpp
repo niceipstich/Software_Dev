@@ -1,5 +1,5 @@
 / module <name> { ... } -- 'Design' is the one reserved name a module may take.
-Module & module(Modules & modules, const std::string & name) {
+Module& module(Modules& modules, const std::string& name) {
     if (name != "Design") {
         check_name(name);
     }
