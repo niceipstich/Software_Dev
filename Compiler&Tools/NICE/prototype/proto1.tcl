@@ -22,6 +22,8 @@ module Design {
         port c -direction output -width 4  -default 0x0
     }
 
+    netName { -port mod1.ifce1.a -netnamemod2.ifce2.AWWR } 
+
     # Instance declaration. 
     instance mod1 A {
         # connectivity is defined in the instance level, which is not generated 
