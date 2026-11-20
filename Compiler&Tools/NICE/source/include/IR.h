@@ -14,6 +14,13 @@ typedef int UNEVALUATED_WIDTH = -1;  // used to indicate that a port width has n
 static const std::set<std::string> RESERVED_KEYWORDS = {
     "module",
     "Design",
+    "instance",
+    "connectivity",
+    "connect",
+    "Interface",
+    "port",
+    "InterfaceNet",
+    "PortNet",
 };
 
 enum class ConnectType {
